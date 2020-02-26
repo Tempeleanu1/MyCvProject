@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link, animateScroll as scroll } from 'react-scroll';  
 
 export default class Home extends Component {
     render() {
@@ -9,18 +10,18 @@ export default class Home extends Component {
       <div className="intro-text">
         <div className="intro-lead-in">My Name is Tempeleanu Mihai</div>
         <div className="intro-heading text-uppercase">And this is my CV</div>
-        <a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
+        <a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#knowledge">Tell Me More</a>
       </div>
     </div>
   </header>
 
   
-  <section className="page-section" id="services">
+  <section className="page-section" id="knowledge">
     <div className="container">
       <div className="row">
         <div className="col-lg-12 text-center">
           <h2 className="section-heading text-uppercase">My Knowledge</h2>
-          <h3 className="section-subheading text-muted">Languages/Libraries that I learned at the Web Development course</h3>
+          <h3 className="section-subheading text-muted">Languages/Libraries that I learned at the Informal School of IT Web Development course</h3>
         </div>
       </div>
       <div className="row text-center">
