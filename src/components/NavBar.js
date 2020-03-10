@@ -9,8 +9,8 @@ export default class NavBar extends Component {
             <div>
                   <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div className="container">
-      <a className="navbar-brand js-scroll-trigger" href="#page-top">Curriculum Vitae</a>
-      <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <a className="navbar-brand js-scroll-trigger" href="#">Curriculum Vitae</a>
+      <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="true" aria-label="Toggle navigation">
         Menu
         <i className="fa fa-bars"></i>
       </button>
@@ -24,6 +24,11 @@ export default class NavBar extends Component {
             <Link to='/About'>
           <li className="nav-item">
             <a className="nav-link js-scroll-trigger" href="#portfolio">About</a>
+          </li>
+          </Link>
+            <Link to='/Resume'>
+          <li className="nav-item">
+            <a className="nav-link js-scroll-trigger" href="#portfolio">Resume</a>
           </li>
           </Link>
           <Link to="/Contact">

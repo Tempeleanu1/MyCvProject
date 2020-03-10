@@ -41,45 +41,25 @@ export default class About extends Component {
                   <h4 className="subheading">The Informal School of IT</h4>
                 </div>
                 <div className="timeline-body">
-                  <p className="text-muted"></p>
+                  <p className="text-muted">Studied HTML5, CSS3, Javascript, OOP, Ajax, React and GIT</p>
                 </div>
               </div>
             </li>
             <li>
               <div className="timeline-image">
-                <img className="rounded-circle img-fluid" src="img/about/3.jpg" alt=""/>
+                <img className="rounded-circle img-fluid" src="https://previews.123rf.com/images/roxanabalint/roxanabalint1703/roxanabalint170300520/74660448-your-name-here-grunge-rubber-stamp-on-white-background-vector-illustration.jpg" alt=""/>
               </div>
               <div className="timeline-panel">
                 <div className="timeline-heading">
-                  <h4>December 2012</h4>
-                  <h4 className="subheading">Transition to Full Service</h4>
+                  <h4>Take part in my evolution</h4>
+                  <h4 className="subheading">Your company name here</h4>
                 </div>
                 <div className="timeline-body">
-                  <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                  <p className="text-muted">Be the next step in my web development journey</p>
                 </div>
               </div>
             </li>
-            <li className="timeline-inverted">
-              <div className="timeline-image">
-                <img className="rounded-circle img-fluid" src="img/about/4.jpg" alt=""/>
-              </div>
-              <div className="timeline-panel">
-                <div className="timeline-heading">
-                  <h4>July 2014</h4>
-                  <h4 className="subheading">Phase Two Expansion</h4>
-                </div>
-                <div className="timeline-body">
-                  <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                </div>
-              </div>
-            </li>
-            <li className="timeline-inverted">
-              <div className="timeline-image">
-                <h4>Be Part
-                  <br/>Of Our
-                  <br/>Story!</h4>
-              </div>
-            </li>
+            
           </ul>
         </div>
       </div>

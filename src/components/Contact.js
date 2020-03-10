@@ -14,12 +14,20 @@ export default class Contact extends Component {
           
         </div>
       </div>
-      <div className="col-md-6">
+      <div className="row">
+        <div className="col-md-6">
           <span className="fa-stack fa-4x">
           <img className="rounded-circle img-fluid"  src="https://w0.pngwave.com/png/431/84/telephone-iphone-computer-icons-phone-icon-png-clip-art.png" alt=""/>
           </span>
           <h4 className="service-heading">0757503323</h4>
-        </div>    
+          </div>
+          <div className="col-md-6">
+          <span className="fa-stack fa-4x">
+          <img className="rounded-circle img-fluid"  src="https://pngimage.net/wp-content/uploads/2018/05/email-logo-png-14.png" alt=""/>
+          </span>
+          <h4 className="service-heading">Tempeleanu@gmail.com</h4>
+          </div>
+        </div>  
     </div>
       
     </section>
