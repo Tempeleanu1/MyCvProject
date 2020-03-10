@@ -18,22 +18,22 @@ export default class NavBar extends Component {
         <ul className="navbar-nav text-uppercase ml-auto">
             <Link to='/'>
           <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#services">Home</a>
+            <a className="nav-link js-scroll-trigger" href="#">Home</a>
           </li>
             </Link>
             <Link to='/About'>
           <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#portfolio">About</a>
+            <a className="nav-link js-scroll-trigger" href="#">Studies</a>
           </li>
           </Link>
             <Link to='/Resume'>
           <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#portfolio">Resume</a>
+            <a className="nav-link js-scroll-trigger" href="#">Resume</a>
           </li>
           </Link>
           <Link to="/Contact">
           <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#about">Contact</a>
+            <a className="nav-link js-scroll-trigger" href="#">Contact</a>
           </li>
           </Link>
 

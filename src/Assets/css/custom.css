@@ -64,12 +64,12 @@ h6 {
 }
 
 ::-moz-selection {
-    background: #f26419;
+    background: #ee964b;
     text-shadow: none
 }
 
 ::selection {
-    background: #f26419;
+    background: #ee964b;
     text-shadow: none
 }
 
@@ -153,14 +153,16 @@ img::-moz-selection {
     #mainNav {
         padding-top: 25px;
         padding-bottom: 25px;
+
         transition: padding-top .3s, padding-bottom .3s;
         border: none;
         background-color: transparent
     }
 
+
     #mainNav .navbar-brand {
         font-size: 1.75em;
-        transition: all .3s
+        transition: all .3s;
     }
 
     #mainNav .navbar-nav .nav-item .nav-link {
@@ -346,6 +348,8 @@ header.masthead .intro-text .intro-heading {
 .timeline .timeline-body>ul {
     margin-bottom: 0
 }
+
+
 
 @media (min-width:768px) {
     .timeline:before {

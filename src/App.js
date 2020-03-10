@@ -5,15 +5,17 @@ import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/footer';
-import ScrollToTop from './components/scrollToTop';
+import ScrollToTop from './components/ScrollToTop';
 import MyCv from './components/MyCv';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+
 
 function App() {
   return (
     <div className="App">
     <Router>
     <NavBar></NavBar>
+
 
     <ScrollToTop/>
 
